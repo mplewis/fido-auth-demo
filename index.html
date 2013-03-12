@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Fido Auth Demo</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/populate-users.js"></script>
 </head>
 <body>
@@ -14,6 +14,22 @@
         <p>
             Fido authorization with JavaScript and JSON. Cool beans.
         </p>
+        <form class="form-inline">
+            <input type="text" class="input" placeholder="Username">
+            <input type="password" class="input" placeholder="Password">
+            <button type="submit" onclick="return false;" class="btn">Sign in</button>
+        </form>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Password Hash</th>
+                </tr>
+            </thead>
+            <tbody class="user-table">
+                <!-- users go here once table is populated -->
+            </tbody>
+        </table>
     </div>
 </body>
 </html>

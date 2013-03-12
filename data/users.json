@@ -1,17 +1,16 @@
-// passwords hashed using sha1
 {
-	users: [
-		{
-			username: "storm",
-			passhash: "b40d51318efc66509a9169ded1e68a89384566a5" // spirit
-		},
-		{
-			username: "artemis",
-			passhash: "ce4fef4ebd945edd0e3944b718d16018f4841866" // fowl
-		},
-		{
-			username: "annie",
-			passhash: "33c6bcddc0af0b9067c0d483ecb44e35984d3efa" // edison
-		}
-	]
+    "users": [
+        {
+            "username": "storm",
+            "passhash": "b40d51318efc66509a9169ded1e68a89384566a5"
+        },
+        {
+            "username": "artemis",
+            "passhash": "ce4fef4ebd945edd0e3944b718d16018f4841866"
+        },
+        {
+            "username": "annie",
+            "passhash": "33c6bcddc0af0b9067c0d483ecb44e35984d3efa"
+        }
+    ]
 }
